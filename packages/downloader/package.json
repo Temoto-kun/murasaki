@@ -1,0 +1,30 @@
+{
+  "name": "@murasaki/downloader",
+  "version": "0.0.0",
+  "description": "Data downloader.",
+  "keywords": [
+    "downloader",
+    "kanjidic",
+    "japanese",
+    "dictionary"
+  ],
+  "author": "TheoryOfNekomata <allan.crisostomo@outlook.com>",
+  "homepage": "",
+  "license": "UNLICENSED",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "devDependencies": {
+    "rollup": "^1.25.2",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.0"
+  }
+}
