@@ -7,8 +7,9 @@ it('should require an output URL', async () => {
 it('should write to storage', async () => {
   await expect(
     filesystem.write({
-      url: './mocks/download',
-      data: '',
+      path: './mocks/download',
+      filename: 'foo.txt',
+      data: 'Foo bar baz',
     }),
   ).resolves
 })
