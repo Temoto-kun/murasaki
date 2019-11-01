@@ -1,0 +1,41 @@
+{
+  "name": "@murasaki/downloader-cli",
+  "version": "0.0.0",
+  "description": "CLI for the downloader module of Murasaki.",
+  "keywords": [
+    "CLI",
+    "downloader",
+    "japanese",
+    "dictionary"
+  ],
+  "author": "TheoryOfNekomata <allan.crisostomo@outlook.com>",
+  "homepage": "https://github.com/Temoto-kun/murasaki#readme",
+  "license": "UNLICENSED",
+  "main": "bin/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Temoto-kun/murasaki.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Temoto-kun/murasaki/issues"
+  },
+  "dependencies": {
+    "@murasaki/downloader": "^0.0.0"
+  },
+  "devDependencies": {
+    "rollup": "^1.26.2",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.0"
+  }
+}
