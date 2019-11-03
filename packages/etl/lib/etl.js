@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-module.exports = etl;
+module.exports = etl
 
 function etl() {
-    // TODO
+	// TODO
 }

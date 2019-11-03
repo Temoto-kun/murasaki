@@ -3,5 +3,5 @@
 const downloaderCli = require('..')
 
 describe('downloader-cli', () => {
-  it('needs tests')
+	it('needs tests')
 })

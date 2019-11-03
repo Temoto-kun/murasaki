@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-module.exports = webApp;
+module.exports = webApp
 
 function webApp() {
-    // TODO
+	// TODO
 }

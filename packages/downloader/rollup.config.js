@@ -7,19 +7,19 @@ import { terser } from 'rollup-plugin-terser'
 dotenv.config()
 
 export default [
-  {
-    input: './src/index.js',
-    output: {
-      path: './lib/index.js',
-      format: 'cjs',
-    },
-    plugins: [
-      peerDepsExternal({
-        includeDependencies: true,
-      }),
-      babel(),
-      commonjs(),
-      process.env.NODE_ENV === 'production' && terser(),
-    ],
-  },
+	{
+		input: './src/index.js',
+		output: {
+			path: './lib/index.js',
+			format: 'cjs',
+		},
+		plugins: [
+			peerDepsExternal({
+				includeDependencies: true,
+			}),
+			babel(),
+			commonjs(),
+			process.env.NODE_ENV === 'production' && terser(),
+		],
+	},
 ]

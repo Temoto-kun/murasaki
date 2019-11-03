@@ -1,43 +1,43 @@
 {
-  "name": "@murasaki/downloader",
-  "version": "0.0.0",
-  "description": "Data downloader.",
-  "keywords": [
-    "downloader",
-    "japanese",
-    "dictionary"
-  ],
-  "author": "TheoryOfNekomata <allan.crisostomo@outlook.com>",
-  "homepage": "https://github.com/Temoto-kun/murasaki#readme",
-  "license": "UNLICENSED",
-  "main": "lib/index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
-  "scripts": {
-    "build": "rollup -c",
-    "test": "jest"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.6.4",
-    "@babel/plugin-transform-runtime": "^7.6.2",
-    "@babel/preset-env": "^7.6.3",
-    "jest": "^24.9.0",
-    "rollup": "^1.26.2",
-    "rollup-plugin-babel": "^4.3.3",
-    "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-peer-deps-external": "^2.2.0",
-    "rollup-plugin-terser": "^5.1.2"
-  },
-  "dependencies": {
-    "@babel/runtime": "^7.6.3",
-    "dotenv": "^8.2.0",
-    "mkdirp": "^0.5.1",
-    "node-fetch": "^2.6.0",
-    "yargs": "^14.2.0"
-  }
+	"name": "@murasaki/downloader",
+	"version": "0.0.0",
+	"description": "Data downloader.",
+	"keywords": [
+		"downloader",
+		"japanese",
+		"dictionary"
+	],
+	"author": "TheoryOfNekomata <allan.crisostomo@outlook.com>",
+	"homepage": "https://github.com/Temoto-kun/murasaki#readme",
+	"license": "UNLICENSED",
+	"main": "lib/index.js",
+	"directories": {
+		"lib": "lib",
+		"test": "__tests__"
+	},
+	"files": [
+		"lib"
+	],
+	"scripts": {
+		"build": "rollup -c",
+		"test": "jest"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.6.4",
+		"@babel/plugin-transform-runtime": "^7.6.2",
+		"@babel/preset-env": "^7.6.3",
+		"jest": "^24.9.0",
+		"rollup": "^1.26.2",
+		"rollup-plugin-babel": "^4.3.3",
+		"rollup-plugin-commonjs": "^10.1.0",
+		"rollup-plugin-peer-deps-external": "^2.2.0",
+		"rollup-plugin-terser": "^5.1.2"
+	},
+	"dependencies": {
+		"@babel/runtime": "^7.6.3",
+		"dotenv": "^8.2.0",
+		"mkdirp": "^0.5.1",
+		"node-fetch": "^2.6.0",
+		"yargs": "^14.2.0"
+	}
 }

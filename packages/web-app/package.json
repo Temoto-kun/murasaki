@@ -1,27 +1,27 @@
 {
-  "name": "@murasaki/web-app",
-  "version": "0.0.0",
-  "description": "Web app for Murasaki, a Japanese dictionary.",
-  "keywords": [
-    "app",
-    "japanese",
-    "dictionary",
-    "language",
-    "tutor",
-    "reference"
-  ],
-  "author": "TheoryOfNekomata <allan.crisostomo@outlook.com>",
-  "homepage": "",
-  "license": "UNLICENSED",
-  "main": "dist/index.cjs.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  }
+	"name": "@murasaki/web-app",
+	"version": "0.0.0",
+	"description": "Web app for Murasaki, a Japanese dictionary.",
+	"keywords": [
+		"app",
+		"japanese",
+		"dictionary",
+		"language",
+		"tutor",
+		"reference"
+	],
+	"author": "TheoryOfNekomata <allan.crisostomo@outlook.com>",
+	"homepage": "",
+	"license": "UNLICENSED",
+	"main": "dist/index.cjs.js",
+	"directories": {
+		"lib": "lib",
+		"test": "__tests__"
+	},
+	"files": [
+		"lib"
+	],
+	"scripts": {
+		"test": "echo \"Error: run tests from root\" && exit 1"
+	}
 }

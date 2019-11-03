@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-const webApp = require('..');
+const webApp = require('..')
 
 describe('web-app', () => {
-    it('needs tests');
-});
+	it('needs tests')
+})

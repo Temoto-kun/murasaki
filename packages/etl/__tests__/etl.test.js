@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-const etl = require('..');
+const etl = require('..')
 
 describe('etl', () => {
-    it('needs tests');
-});
+	it('needs tests')
+})
