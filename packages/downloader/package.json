@@ -36,8 +36,8 @@
   "dependencies": {
     "@babel/runtime": "^7.6.3",
     "dotenv": "^8.2.0",
-    "fetch-ponyfill": "^6.1.0",
     "mkdirp": "^0.5.1",
+    "node-fetch": "^2.6.0",
     "yargs": "^14.2.0"
   }
 }
